@@ -1,0 +1,192 @@
+html,
+body,
+div,
+span,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+b,
+i,
+a,
+em,
+input,
+form,
+img,
+ul,
+li,
+dl,
+dt,
+section,
+article,
+nav,
+menu,
+aside,
+header,
+footer {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  font-style: normal;
+  font-weight: normal;
+  box-sizing: border-box;
+}
+section,
+article,
+nav,
+menu,
+aside,
+header,
+footer,
+musicbox,
+conctrl,
+left,
+right,
+top,
+bottom {
+  display: block;
+}
+ul,
+li,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  display: inline-block;
+}
+.banner_app {
+  display: none;
+}
+.banner_pc {
+  width: 100%;
+  height: 1228px;
+  background: url(../img/banner.jpg) no-repeat;
+  background-size: 100% 100%;
+  padding-top: 290px;
+}
+.banner_pc .content {
+  width: 982px;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+.banner_pc .content .right {
+  width: 430px;
+  height: auto;
+  overflow: hidden;
+  margin-right: 28px;
+  margin-bottom: 80px;
+  float: right;
+}
+.banner_pc .content .right .text {
+  width: 430px;
+  height: 300px;
+}
+.banner_pc .content .right .text p {
+  font-size: 29px;
+  color: #C61633;
+  line-height: 42px;
+}
+.banner_pc .content .right .text p span {
+  font-size: 38px;
+  font-weight: 600;
+}
+.banner_pc .content .right > .lianxi {
+  width: 414px;
+  height: 256px;
+  border: 2px solid #C61633;
+  border-radius: 8px;
+  text-align: center;
+  float: right;
+}
+.banner_pc .content .right > .lianxi > h3 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #C61633;
+  line-height: 72px;
+}
+.banner_pc .content .right > .lianxi > p {
+  font-size: 20px;
+  color: #4E4F51;
+  line-height: 28px;
+}
+.banner_pc .content .right > .lianxi .filst {
+  color: #DE0025;
+}
+.banner_pc .content .right > .lianxi > button {
+  width: 369px;
+  height: 46px;
+  display: block;
+  margin: 10px auto;
+  background: #DE0025;
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 600;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.banner_pc .content .erweim {
+  width: 724px;
+  height: 150px;
+  clear: both;
+  margin: 70px auto 0;
+}
+.banner_pc .content .erweim > p {
+  font-size: 26px;
+  color: #FFFFFF;
+  line-height: 150px;
+  float: left;
+}
+.banner_pc .content .erweim .ewm {
+  width: 150px;
+  height: 150px;
+  float: right;
+}
+.banner_pc .content .erweim .ewm img {
+  width: 100%;
+  height: 100%;
+}
+.banner_pc .content .banner_footer {
+  width: auto;
+  height: 114px;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  cursor: pointer;
+}
+.banner_pc .content .banner_footer p {
+  font-size: 28px;
+  margin-top: 30px;
+  color: #FFFFFF;
+  font-weight: 600;
+}
+.banner_pc .content .banner_footer i {
+  margin: 15px auto;
+  width: 74px;
+  height: 20px;
+  display: block;
+  background: url(../img/xia.png) no-repeat;
+  background-size: 100% 100%;
+}
+.main {
+  width: 982px;
+  height: auto;
+  overflow: hidden;
+  margin: 40px auto;
+}
+.main p {
+  font-size: 26px;
+  color: #4E4F51;
+  line-height: 42px;
+  margin: 20px 0;
+}
+/*# sourceMappingURL=publik.css.map */

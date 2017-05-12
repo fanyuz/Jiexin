@@ -1,0 +1,191 @@
+html,
+body,
+div,
+span,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+b,
+i,
+a,
+em,
+input,
+form,
+img,
+ul,
+li,
+dl,
+dt,
+section,
+article,
+nav,
+menu,
+aside,
+header,
+footer {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  font-style: normal;
+  font-weight: normal;
+  box-sizing: border-box;
+}
+section,
+article,
+nav,
+menu,
+aside,
+header,
+footer,
+musicbox,
+conctrl,
+left,
+right,
+top,
+bottom {
+  display: block;
+}
+ul,
+li,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  display: inline-block;
+}
+.banner_pc {
+  display: none;
+}
+.banner_app {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  display: block;
+}
+.banner_app > .top {
+  width: 100%;
+  height: 13.2rem;
+}
+.banner_app > .top img {
+  width: 100%;
+  height: 100%;
+}
+.banner_app > .text {
+  width: 18.866666666666667rem;
+  height: 8.2rem;
+  margin: 1.3333333333333333rem auto 2rem;
+}
+.banner_app > .text p {
+  font-size: 1rem;
+  color: #4E4F51;
+  line-height: 1.6666666666666667rem;
+}
+.banner_app > .text p span {
+  font-size: 1.2666666666666666rem;
+  font-weight: 600;
+  color: #DE0025;
+}
+.banner_app > .lianxi {
+  width: 19.2rem;
+  height: 12rem;
+  border: 2px solid #C61633;
+  border-radius: 8px;
+  text-align: center;
+  margin: 0 auto 2.6666666666666665rem;
+}
+.banner_app > .lianxi h3 {
+  font-size: 1.3333333333333333rem;
+  font-weight: 600;
+  color: #C61633;
+  line-height: 3rem;
+}
+.banner_app > .lianxi > p {
+  font-size: 1rem;
+  color: #4E4F51;
+  line-height: 1.2rem;
+}
+.banner_app > .lianxi > span {
+  font-size: 0.8666666666666667rem;
+  color: #DE0025;
+  line-height: 1.5rem;
+  display: block;
+}
+.banner_app > .lianxi > button {
+  width: 17.266666666666666rem;
+  height: 2.2rem;
+  background: #DE0025;
+  color: #ffffff;
+  font-size: 0.9333333333333333rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 0.6rem;
+}
+.banner_app > .lianxi .filst {
+  margin-top: 8px;
+}
+.banner_app .banner_footer {
+  width: 100%;
+  height: 12.333333333333334rem;
+  background: url(../img/banner_f.jpg) no-repeat;
+  background-size: 100% 100%;
+  text-align: center;
+  position: relative;
+}
+.banner_app .banner_footer .top {
+  width: 100%;
+  height: 8rem;
+  padding-top: 2.3333333333333335rem;
+}
+.banner_app .banner_footer .top p {
+  line-height: 2.5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #fff;
+}
+.banner_app .banner_footer .bottom {
+  width: auto;
+  height: 4.266666666666667rem;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+}
+.banner_app .banner_footer .bottom p {
+  font-size: 1.2rem;
+  line-height: 2.533333333333333rem;
+  color: #FFFFFF;
+  font-weight: 600;
+}
+.banner_app .banner_footer .bottom i {
+  width: 3.2rem;
+  height: 1rem;
+  margin: 0 auto;
+  display: block;
+}
+.banner_app .banner_footer .bottom i img {
+  width: 100%;
+  height: 100%;
+}
+.main {
+  width: 94%;
+  height: auto;
+  overflow: hidden;
+  margin: 3rem auto 0;
+}
+.main p {
+  font-size: 0.7333333333333333rem;
+  line-height: 1.5333333333333334rem;
+  color: #4E4F51;
+  margin: 0.6666666666666666rem 0;
+}
+/*# sourceMappingURL=publikapp.css.map */
